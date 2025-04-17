@@ -1,97 +1,89 @@
 # 🤖 Robotic Arm Project
 
-Welcome to the **main project repository** of the *Robotic Arm with Computer Vision* developed by undergraduate students of Computer Science at Dom Helder School – Group GIC 2025.
+Welcome to the **main repository** of the *Robotic Arm with Computer Vision*, developed by undergraduate students of Computer Science at Dom Helder School – **GIC Group 2025**.
 
-This repository serves as the central hub for all documentation, coordination, and planning related to the modular project ecosystem.
+This repository serves as the central hub for documentation, coordination, and high-level planning of our modular project ecosystem, which includes hardware, software, vision, and control systems.
 
 ---
 
-## 📁 Repository Ecosystem
+## 🌐 Project Overview
 
-The project is divided into several modular repositories:
+This initiative aims to develop a functional robotic arm equipped with computer vision capabilities, integrating 3D-printed parts, Arduino-based control systems, and Python-powered image recognition tools.
 
-| Repository                  | Description                                           |
-|----------------------------|-------------------------------------------------------|
-| `robotic-arm-software`     | Python code for computer vision and control systems  |
-| `robotic-arm-hardware`     | 3D models, electronics, circuits and Arduino code     |
-| `robotic-arm-testes`       | System testing, calibration, and evaluation logs      |
-| `robotic-arm-utils`        | Extra tools and automation scripts                   |
-<!-- | `robotic-arm-site`         | Public-facing website and presentation platform      
-| `robotic-arm-simulator`    | Simulation environment using Unity/ROS/etc           |
-| `robotic-arm-ia`           | Future machine learning/AI modules                   |
-| `robotic-arm-docs`         | Academic documentation and technical references      |
-| `robotic-arm-publications` | Posters, papers, and formal publications             |
--->
+The project is **based on the InMoov open-source robotics platform**, adapted and customized for educational and experimental purposes.
+
 ---
 
 ## 📋 Purpose of This Repository
 
 This repository includes:
 
-- 📌 Project roadmap and timeline  
-- 👥 Team structure and responsibilities  
-- 📊 Meeting notes and summaries  
-- 📎 Shared documents, diagrams and presentations  
-- 🔗 Links to all other GitHub repositories in the ecosystem  
+- ✅ Project roadmap and timeline  
+- 🧠 Team structure and member responsibilities  
+- 📝 Meeting agendas and summaries  
+- 🔗 Links to all associated repositories and subsystems  
 
 ---
 
+## 📦 Modular Repository Ecosystem
+
+Our project is divided into the following modular GitHub repositories:
+
+| Repository             | Description                                                   |
+|------------------------|---------------------------------------------------------------|
+| `software`             | Python code for computer vision, Arduino communication, and logic control |
+| `hardware`             | 3D printed parts, electronic schematics, components and Arduino code |
+| `utils`                | Auxiliary tools and automation scripts                         |
+| `docs`                 | Academic documentation, planning files, and technical references |
+<!--
+| `tests`                | System testing, calibration routines, and evaluation logs       |
+| `robotic-arm-site`     | Public website and visual project showcase                     |
+| `robotic-arm-simulator`| Simulation environment (e.g. Unity, ROS)                       |
+| `robotic-arm-ai`       | Machine learning / AI-based modules                            |
+| `robotic-arm-publications` | Posters, papers, and formal publications                    |
+-->
+
 ---
 
-## 📁 Repository Structure
+## 📁 Repositories Structure
 
-`robotic-arm-project/`
+```
+ATOM-project/
 
-`├── docs/`                        # Documentação geral e de organização
+├── software/     # Python code for computer vision, Arduino communication, and logic control
+│   ├── cv/                    # CVZone, OpenCV (object tracking, recognition)
+│   ├── control/               # Communication with Arduino, motion logic
+│   ├── interface/             # CLI or future GUI
+│   ├── tests/                 # Unit or integration tests
+│   ├── utils/                 # Auxiliary functions
+│   ├── requirements.txt       # Python dependencies
+│   ├── README.md
+│   └── .gitignore
 
-`│   ├── team-structure.md`        # Equipe, responsabilidades e hierarquia
+├── hardware/     # 3D printed parts, circuits, electronic components and Arduino code
+│   ├── arduino/              # Embedded code for microcontrollers
+│   ├── electronics/          # Schematics, wiring diagrams
+│   ├── models/               # STL, STEP and CAD files
+│   ├── components.md         # List of components used
+│   └── README.md
 
-`│   ├── roadmap.md`               # Etapas e entregas do projeto
-
-`│   ├── workflow.md`              # Processo de trabalho, versionamento, commits etc.
-
-`│   └── guidelines.md`            # Normas internas, nomeação, boas práticas
-
-`│`
-
-`├── meetings/`                    # Atas e registros de reuniões
-
-`│   ├── ata1.md`
-
-`│   ├── ata2.md`
-
-`│   └── template-ata.md`
-
-`│`
-
-`├── reports/`                     # Relatórios técnicos e de acompanhamento
-
-`│   ├── relatorio-semanal-01.md`
-
-`│   └── relatorio-mensal-marco.md`
-
-`│`
-
-`├── diagrams/`                    # Diagramas de arquitetura, fluxogramas, UML
-
-`│   ├── estrutura-equipe.excalidraw`
-
-`│   ├── arquitetura-sistema.png`
-
-`│   └── fluxo-integracao.pdf`
-
-`│`
-
-`├── teams.md`                     # Organização de times e suas responsabilidades
-
-`├── LICENSE`                      # Licença CC BY 4.0 (ou dupla, se necessário)
-
-`├── LICENSES.md`                  # Tabela com licenças de todos os repositórios
-
-`├── README.md`                    # Visão geral (já temos!)
-
-`└── .gitignore`                   # Ignorar arquivos temporários, backups, etc.
-
+├── utils/        # Auxiliary tools and automation scripts
+│   ├── setup.sh              # Initial setup script
+│   ├── converters/           # File or format converters
+│   ├── benchmarks/           # Performance analysis tools
+│   └── README.md
+        
+├── docs/         # Academic documentation, planning files, and technical references
+│   ├── roadmap.md             # Project phases and deliverables  
+│   ├── workflow.md            # Workflow and commit conventions
+│   ├── theoretical framework/ # 
+│   ├── methodology/           # 
+│   ├── reports/               # Progress and technical reports
+│   ├── meetings/              # Meeting minutes and agendas
+│   ├── diagrams/              # UML, architecture, and flowcharts
+│   ├── team-structure.md      # Team roles and organization
+│   └── README.md
+```
 ---
 
 ## 🧾 Licensing
