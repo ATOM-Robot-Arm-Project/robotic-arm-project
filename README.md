@@ -39,32 +39,58 @@ This repository includes:
 ---
 
 ## 📁 Repository Structure
-robotic-arm-project/
-├── docs/                        # Documentação geral e de organização
-│   ├── team-structure.md        # Equipe, responsabilidades e hierarquia
-│   ├── roadmap.md               # Etapas e entregas do projeto
-│   ├── workflow.md              # Processo de trabalho, versionamento, commits etc.
-│   └── guidelines.md            # Normas internas, nomeação, boas práticas
-│
-├── meetings/                    # Atas e registros de reuniões
-│   ├── ata1.md
-│   ├── ata2.md
-│   └── template-ata.md
-│
-├── reports/                     # Relatórios técnicos e de acompanhamento
-│   ├── relatorio-semanal-01.md
-│   └── relatorio-mensal-marco.md
-│
-├── diagrams/                    # Diagramas de arquitetura, fluxogramas, UML
-│   ├── estrutura-equipe.excalidraw
-│   ├── arquitetura-sistema.png
-│   └── fluxo-integracao.pdf
-│
-├── teams.md                     # Organização de times e suas responsabilidades
-├── LICENSE                      # Licença CC BY 4.0 (ou dupla, se necessário)
-├── LICENSES.md                  # Tabela com licenças de todos os repositórios
-├── README.md                    # Visão geral (já temos!)
-└── .gitignore                   # Ignorar arquivos temporários, backups, etc.
+
+`robotic-arm-project/`
+
+`├── docs/`                        # Documentação geral e de organização
+
+`│   ├── team-structure.md`        # Equipe, responsabilidades e hierarquia
+
+`│   ├── roadmap.md`               # Etapas e entregas do projeto
+
+`│   ├── workflow.md`              # Processo de trabalho, versionamento, commits etc.
+
+`│   └── guidelines.md`            # Normas internas, nomeação, boas práticas
+
+`│`
+
+`├── meetings/`                    # Atas e registros de reuniões
+
+`│   ├── ata1.md`
+
+`│   ├── ata2.md`
+
+`│   └── template-ata.md`
+
+`│`
+
+`├── reports/`                     # Relatórios técnicos e de acompanhamento
+
+`│   ├── relatorio-semanal-01.md`
+
+`│   └── relatorio-mensal-marco.md`
+
+`│`
+
+`├── diagrams/`                    # Diagramas de arquitetura, fluxogramas, UML
+
+`│   ├── estrutura-equipe.excalidraw`
+
+`│   ├── arquitetura-sistema.png`
+
+`│   └── fluxo-integracao.pdf`
+
+`│`
+
+`├── teams.md`                     # Organização de times e suas responsabilidades
+
+`├── LICENSE`                      # Licença CC BY 4.0 (ou dupla, se necessário)
+
+`├── LICENSES.md`                  # Tabela com licenças de todos os repositórios
+
+`├── README.md`                    # Visão geral (já temos!)
+
+`└── .gitignore`                   # Ignorar arquivos temporários, backups, etc.
 
 ---
 
