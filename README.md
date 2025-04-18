@@ -4,7 +4,7 @@ Welcome to the **main repository** of the *Robotic Arm with Computer Vision*, de
 
 This repository serves as the central hub for documentation, coordination, and high-level planning of our modular project ecosystem, which includes hardware, software, vision, and control systems.
 
---- 
+---
 
 ## 🌐 Project Overview
 
