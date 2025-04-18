@@ -12,7 +12,7 @@ This initiative aims to develop a functional robotic arm equipped with computer 
 
 The project is **based on the InMoov open-source robotics platform**, adapted and customized for educational and experimental purposes.
 
----
+--- 
 
 ## 📋 Purpose of This Repository
 
