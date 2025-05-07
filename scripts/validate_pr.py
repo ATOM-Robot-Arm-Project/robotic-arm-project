@@ -12,6 +12,7 @@ def validate_branch_and_pr_title(branch, pr_title):
         str: A message indicating whether the branch and PR title are valid or specifying the validation error.
     """
 
+
     # Verify if the branch starts with 'ATOM-PJT-'
     if not branch.startswith("ATOM-PJT-"):
         print(f"The branch '{branch}' does not start with the pattern 'ATOM-PJT-'.")
