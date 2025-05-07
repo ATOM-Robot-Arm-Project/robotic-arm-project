@@ -15,15 +15,92 @@ This document explains how to manage and use branches in any repository of this 
    - **Usage**: All developers should merge their features into `development` first.
    - **How to update**: Use `git pull origin development` to update your local branch with the latest changes.
 
-3. **`documentation`**:
-   - A branch dedicated to the project documentation.
-   - **Usage**: If you need to update the documentation (e.g., updates to README, guides, etc.), create a branch from `documentation` and merge back into it.
-   - **How to update**: Documentation will be maintained separately from the codebase, allowing more frequent and specific updates.
+## 🧩 Branch Naming Convention 
+### Use the following format for all branch names:
 
-## 🧩 Branch Naming Convention
- ### **`Documentation branches must start with 'docs/'`**:
-  - ✅ Correct: `docs/fix-readme`
-  - ❌ Incorrect: `documentation`, `docfix`, `readme-update`
+<type>(ATOM-RepositoryAcronym): description-in-kebab-case
+
+**Allowed types:**
+
+| Type       | Meaning                            |
+|------------|------------------------------------|
+| `feat`     | New feature                        |
+| `fix`      | Bug fix                            |
+| `refactor` | Code refactoring                   |
+| `docs`     | Documentation changes              |
+| `test`     | Adding or updating tests           |
+| `ci`       | CI/CD or pipeline changes          |
+| `chore`    | Other tasks (build, infra, etc.)   |
+
+**Examples:**
+- `feat(ATOM-SOFT): add-bluetooth-module-support`
+- `fix(ATOM-HARD): fix-login-endpoint-response`
+- `docs(ATOM-DOCS): update-deployment-guide`
+
+### Commits must follow the same structure as branches:
+<type>(ATOM-REPOSITORYNAME): short and clear description in imperative form
+**Examples:**
+- `feat(ATOM-FIRMWARE): implement ultrasonic sensor`
+- `fix(ATOM-API): fix token validation`
+- `chore(ATOM-WEB): remove outdated dependencies`
+
+---
+
+## 🔁 Pull Requests (PRs)
+
+When opening a PR, use this format for the title:
+<type>(ATOM-REPOSITORYNAME) - Clear and concise description
+
+### Convention per Repository
+
+| Repository     | Branch / Commit / PR Prefix Example                | Description Example                        |
+|----------------|----------------------------------------------------|--------------------------------------------|
+| `hardware`     | `feat(ATOM-HW-): integrate-ultrasonic-sensor`| For all firmware, electronics or embedded  |
+| `software`     | `fix(ATOM-SW-): fix-face-detection-algorithm`| Backend/frontend, computer vision, etc.    |
+| `atom-project` | `chore(ATOM-PJT-): restructure-project-folders`| General coordination / umbrella repo       |
+| `docs`         | `docs(ATOM-DOCS-): update-installation-guide`      | Documentation, diagrams, manuals           |
+| `utils`        | `feat(ATOM-UTILS-): add-serial-parser-script`      | Scripts, helpers, automation tools         |
+
+
+**Examples:**
+- `feat(ATOM-SW-) - Add OLED display support`
+- `fix(ATOM-DOCS-) - Fix OAuth authentication`
+- `docs(ATOM-UTILS-) - Improve contribution guide`
+
+Include in the PR body:
+- Reference to the related issue (e.g., `Closes #42`)
+- A checklist of what's been done
+- Screenshots or videos if applicable
+
+---
+
+## 📋 PR Checklist
+
+Before submitting your pull request, make sure:
+
+- [ ] The branch follows the correct naming pattern
+- [ ] Your code was tested locally
+- [ ] There are no conflicts with `main`
+- [ ] The PR description is clear and informative
+- [ ] The CI pipeline passed successfully (if any)
+
+---
+
+## 🤖 Contribution Tips
+
+- Always pull the latest changes from `main` before starting (`git pull origin main`)
+- Use **Squash Merge** to keep a clean commit history
+- Make atomic and meaningful commits
+- Keep branches small and focused
+
+---
+
+## 💬 Contact the Team
+
+If you have any questions, suggestions, or issues, feel free to open an issue or contact the project maintainers.
+
+Thanks for being part of the ATOM project! 🚀
+---
 
 - Pull Requests without this convention will be denied.
 
@@ -48,7 +125,7 @@ These branches are created from the long branches and serve specific features an
      git checkout -b bugfix/{bug-name}
      ```
 
-### Workflow
+## Workflow
 
 1. **Creating a new feature or bugfix branch**:
    - Always create a new branch for each specific task, using the appropriate naming convention.
