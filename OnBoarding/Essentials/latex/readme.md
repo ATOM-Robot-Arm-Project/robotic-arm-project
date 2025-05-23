@@ -21,4 +21,4 @@ LaTeX é uma linguagem de marcação para produção de documentos científicos,
 [https://www.overleaf.com/learn/](https://www.overleaf.com/learn/)
 
 - 👉 Artigo rápido para iniciantes:
-[LaTeX Wikibooks (PT-BR)](https://pt.wikibooks.org/wiki/LaTeX)
+[LaTeX_for_beginners](https://www.overleaf.com/learn/latex/Tutorials/LaTeX_for_beginners)
