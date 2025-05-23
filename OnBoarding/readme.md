@@ -26,8 +26,9 @@ Aqui você encontrará orientações para sua primeira trilha de aprendizado e d
 
 1. Leia o guia de **essentials** para se familiarizar com as ferramentas e tecnologias básicas.  
 2. Faça o checklist de **primeiras tarefas** para se integrar à equipe e entender o funcionamento do laboratório.  
-3. Escolha sua **primeira trilha** e acompanhe o material e as atividades propostas na pasta `first-track`.  
+3. Acompanhe o material e as atividades propostas na pasta `first-track`.  
 4. Participe das reuniões e workshops para tirar dúvidas e se conectar com o time.
+5. Escolha atividades no Kanban com a label `good-first-issue`
 
 ---
 
