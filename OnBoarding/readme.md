@@ -36,4 +36,4 @@ Aqui você encontrará orientações para sua primeira trilha de aprendizado e d
 
 ---
 
-**Equipe ATOM**
+**Coordenador Geral, Enzo Ribas**
